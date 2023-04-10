@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="businessVerticles(failed)">
+    <classes>
+      <class name="mytest.Konga">
+        <methods>
+          <include name="addToCart"/>
+          <include name="forgotPassword"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="googleLogin"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- mytest.Konga -->
+    </classes>
+  </test> <!-- businessVerticles(failed) -->
+  <test thread-count="5" name="googleLogin(failed)">
+    <classes>
+      <class name="mytest.Konga">
+        <methods>
+          <include name="categories"/>
+          <include name="addToCart"/>
+          <include name="businessVerticles"/>
+          <include name="forgotPassword"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="googleLogin"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- mytest.Konga -->
+    </classes>
+  </test> <!-- googleLogin(failed) -->
+  <test thread-count="5" name="forgotPassword(failed)">
+    <classes>
+      <class name="mytest.Konga">
+        <methods>
+          <include name="categories"/>
+          <include name="addToCart"/>
+          <include name="businessVerticles"/>
+          <include name="forgotPassword"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="googleLogin"/>
+          <include name="signUp"/>
+        </methods>
+      </class> <!-- mytest.Konga -->
+    </classes>
+  </test> <!-- forgotPassword(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

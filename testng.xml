@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test name="KongaSanityChecks">
+    <classes>
+      <class name="mytest.Konga">
+      <methods>
+      <include name="signUp"/>
+      <include name="login"/>
+      <include name="categories"/>
+      <include name="forgotPassword"/>
+      <include name="googleLogin"/>
+      <include name="addToCart"/>
+      <include name="businessVerticles"/>
+      
+      </methods>
+      </class>
+       
+    </classes>
+  </test>
+  
+  
+  
+<!-- <test name="googleLogin">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+  </test> 
+  <test name="forgotPassword">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+  </test> 
+
+  <test name="addToCart">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+  </test> 
+  <test name="categories">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+  </test> 
+  <test name="login">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+  </test> 
+  <test name="signUp">
+    <classes>
+      <class name="mytest.Konga"/>
+    </classes>
+     </test> -->
+</suite> 
+  
+    
+
+
+
+
